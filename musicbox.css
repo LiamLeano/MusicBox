@@ -87,6 +87,10 @@ hr { /*extra space*/
   font-size: xx-large;
 }
 
+.content-header-xl { /*subtitle*/
+  margin-top: 10px;
+  font-size: x-large;
+}
 
 .content-paragraph { /*paragraphs*/
   font-size: x-large;

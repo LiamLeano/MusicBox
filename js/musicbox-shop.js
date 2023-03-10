@@ -16,7 +16,7 @@ addtocartbtnDom.forEach(addtocartbtnDom => {
    };
 const IsinCart = cart.filter(cartItem => cartItem.name === product.name).length > 0;
 
-//
+//Some code to add and remove more items to cart
 if (IsinCart === false) {
   cartDom.insertAdjacentHTML("beforeend",`
   <div class="d-flex flex-row shadow-sm card cart-items mt-2 mb-3 animated flipInX">
